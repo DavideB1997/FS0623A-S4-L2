@@ -336,12 +336,14 @@ tbody tr:last-of-type {
 }
 @media screen and (min-width: 700px){
   #bottone1{
-    top: 230px;
+    top: 50px;
     color: blue;
+    z-index: 10;
   }
   #bottone2{
-    top: 340px;
+    top: 170px;
     color: blue;
+    z-index: 10;
   }
   #bottone3{
     bottom: 10px;
@@ -350,18 +352,7 @@ tbody tr:last-of-type {
 }
 
 @media screen and (min-width: 1340px){
-  #bottone1{
-    top: 50px;
-    color: blue;
-  }
-  #bottone2{
-    top: 170px;
-    color: blue;
-  }
-  #bottone3{
-    bottom: 10px;
-    color: red;
-  }
+  
 }
 
 input {
